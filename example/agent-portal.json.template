@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "fields": {
+        "snapshot": null,
+        "groups": [],
+        "order": 1,
+        "public": true,
+        "title": "Accueil",
+        "template_name": "standard",
+        "description": "",
+        "sub_slug": "",
+        "redirect_url": "",
+        "last_update_timestamp": "2020-03-03T14:04:53.870Z",
+        "picture": "",
+        "slug": "index",
+        "parent": null,
+        "exclude_from_navigation": false
+      },
+      "cells": [
+        {
+          "fields": {
+            "last_update_timestamp": "2020-03-03T14:04:09.432Z",
+            "placeholder": "content",
+            "groups": [],
+            "order": 1,
+            "restricted_to_unlogged": false,
+            "public": true,
+            "extra_css_class": "",
+            "text": "<p>Bienvenue sur le portail agents de ${TITLE},</p>\r\n\r\n<p>Si vous disposez des droits requis, vous pouvez g&eacute;rer les d&eacute;marches ici.</p>",
+            "slug": ""
+          },
+          "model": "data.textcell"
+        },
+        {
+          "fields": {
+            "wcs_site": "",
+            "last_update_timestamp": "2020-02-17T15:36:38.333Z",
+            "placeholder": "content",
+            "groups": [],
+            "order": 2,
+            "restricted_to_unlogged": false,
+            "public": true,
+            "extra_css_class": "",
+            "slug": ""
+          },
+          "model": "wcs.trackingcodeinputcell"
+        },
+        {
+          "fields": {
+            "wcs_site": "wcs-${SLUG}",
+            "last_update_timestamp": "2020-02-17T15:36:38.593Z",
+            "placeholder": "content",
+            "groups": [],
+            "order": 3,
+            "restricted_to_unlogged": false,
+            "public": true,
+            "extra_css_class": "",
+            "slug": ""
+          },
+          "model": "wcs.wcscareformscell"
+        }
+      ]
+    }
+  ],
+  "map-layers": [],
+  "assets": [],
+  "pwa": {
+    "navigation": [],
+    "settings": {}
+  }
+}
