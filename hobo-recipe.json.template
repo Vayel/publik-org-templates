@@ -19,30 +19,7 @@
       "create-hobo": {
         "url": "https://${organization}.${hobo}/",
         "slug": "hobo-${organization}",
-        "title": "${TITLE}",
-        "variables": {
-          "collectivite": {
-            "value": "${TITLE}"
-          },
-          "collectivite_site": {
-            "value": "${SITE_URL}"
-          },
-          "collectivite_telephone": {
-            "value": "${PHONE}"
-          },
-          "collectivite_email": {
-            "value": "${EMAIL}"
-          },
-          "collectivite_adresse": {
-            "value": "${ADDR}"
-          },
-          "collectivite_adresse_complement": {
-            "value": "${ADDR2}"
-          },
-          "collectivite_code_postal": {
-            "value": "${POSTCODE}"
-          }
-        }
+        "title": "${TITLE}"
       }
     },
     {
@@ -54,30 +31,7 @@
         "url": "https://${organization}.${combo}/",
         "slug": "portal-user-${organization}",
         "title": "Compte citoyen",
-        "template_name": "portal-user",
-        "variables": {
-          "collectivite": {
-            "value": "${TITLE}"
-          },
-          "collectivite_site": {
-            "value": "${SITE_URL}"
-          },
-          "collectivite_telephone": {
-            "value": "${PHONE}"
-          },
-          "collectivite_email": {
-            "value": "${EMAIL}"
-          },
-          "collectivite_adresse": {
-            "value": "${ADDR}"
-          },
-          "collectivite_adresse_complement": {
-            "value": "${ADDR2}"
-          },
-          "collectivite_code_postal": {
-            "value": "${POSTCODE}"
-          }
-        }
+        "template_name": "portal-user"
       }
     },
     {
@@ -85,60 +39,14 @@
         "url": "https://${organization}.${combo_agent}/",
         "slug": "portal-agent-${organization}",
         "title": "Portail agent",
-        "template_name": "portal-agent",
-        "variables": {
-          "collectivite": {
-            "value": "${TITLE}"
-          },
-          "collectivite_site": {
-            "value": "${SITE_URL}"
-          },
-          "collectivite_telephone": {
-            "value": "${PHONE}"
-          },
-          "collectivite_email": {
-            "value": "${EMAIL}"
-          },
-          "collectivite_adresse": {
-            "value": "${ADDR}"
-          },
-          "collectivite_adresse_complement": {
-            "value": "${ADDR2}"
-          },
-          "collectivite_code_postal": {
-            "value": "${POSTCODE}"
-          }
-        }
+        "template_name": "portal-agent"
       }
     },
     {
       "create-passerelle": {
         "url": "https://${organization}.${passerelle}/",
         "slug": "passerelle-${organization}",
-        "title": "Passerelle",
-        "variables": {
-          "collectivite": {
-            "value": "${TITLE}"
-          },
-          "collectivite_site": {
-            "value": "${SITE_URL}"
-          },
-          "collectivite_telephone": {
-            "value": "${PHONE}"
-          },
-          "collectivite_email": {
-            "value": "${EMAIL}"
-          },
-          "collectivite_adresse": {
-            "value": "${ADDR}"
-          },
-          "collectivite_adresse_complement": {
-            "value": "${ADDR2}"
-          },
-          "collectivite_code_postal": {
-            "value": "${POSTCODE}"
-          }
-        }
+        "title": "Passerelle"
       }
     },
     {
@@ -146,65 +54,67 @@
         "url": "https://${organization}.${wcs}/",
         "slug": "wcs-${organization}",
         "title": "Démarches",
-        "template_name": "publik.zip",
-        "variables": {
-          "collectivite": {
-            "value": "${TITLE}"
-          },
-          "collectivite_site": {
-            "value": "${SITE_URL}"
-          },
-          "collectivite_telephone": {
-            "value": "${PHONE}"
-          },
-          "collectivite_email": {
-            "value": "${EMAIL}"
-          },
-          "collectivite_adresse": {
-            "value": "${ADDR}"
-          },
-          "collectivite_adresse_complement": {
-            "value": "${ADDR2}"
-          },
-          "collectivite_code_postal": {
-            "value": "${POSTCODE}"
-          }
-        }
+        "template_name": "publik.zip"
       }
     },
     {
       "create-fargo": {
         "url": "https://${organization}.${fargo}/",
         "slug": "fargo-${organization}",
-        "title": "Porte-documents",
-        "variables": {
-          "collectivite": {
-            "value": "${TITLE}"
-          },
-          "collectivite_site": {
-            "value": "${SITE_URL}"
-          },
-          "collectivite_telephone": {
-            "value": "${PHONE}"
-          },
-          "collectivite_email": {
-            "value": "${EMAIL}"
-          },
-          "collectivite_adresse": {
-            "value": "${ADDR}"
-          },
-          "collectivite_adresse_complement": {
-            "value": "${ADDR2}"
-          },
-          "collectivite_code_postal": {
-            "value": "${POSTCODE}"
-          }
-        }
+        "title": "Porte-documents"
       }
     },
     {
       "set-theme": {
         "theme": "${THEME}" 
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite", 
+        "value": "${TITLE}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite_site", 
+        "value": "${SITE_URL}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite_telephone", 
+        "value": "${PHONE}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite_email", 
+        "value": "${EMAIL}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite_adresse", 
+        "value": "${ADDR}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite_adresse_complement", 
+        "value": "${ADDR2}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "collectivite_code_postal", 
+        "value": "${POSTCODE}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "couleur_principale", 
+        "value": "${MAIN_COLOR}"
       }
     }
   ]
