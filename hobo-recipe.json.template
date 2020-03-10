@@ -113,8 +113,14 @@
     },
     {
       "set-variable": {
-        "name": "couleur_principale", 
-        "value": "${MAIN_COLOR}"
+        "name": "couleur_fond", 
+        "value": "${BACKGROUND_COLOR}"
+      }
+    },
+    {
+      "set-variable": {
+        "name": "couleur_texte", 
+        "value": "${TEXT_COLOR}"
       }
     }
   ]
