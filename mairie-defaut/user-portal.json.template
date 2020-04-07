@@ -1,0 +1,130 @@
+{
+  "pages": [
+    {
+      "fields": {
+        "snapshot": null,
+        "groups": [],
+        "order": 1,
+        "public": true,
+        "title": "Accueil",
+        "template_name": "standard",
+        "description": "",
+        "sub_slug": "",
+        "redirect_url": "",
+        "last_update_timestamp": "2020-02-18T08:19:12.059Z",
+        "picture": "",
+        "slug": "index",
+        "parent": null,
+        "exclude_from_navigation": false
+      },
+      "cells": [
+        {
+          "fields": {
+            "wcs_site": "",
+            "last_update_timestamp": "2020-02-17T15:36:34.458Z",
+            "placeholder": "content",
+            "groups": [],
+            "order": 1,
+            "restricted_to_unlogged": false,
+            "public": true,
+            "extra_css_class": "",
+            "slug": ""
+          },
+          "model": "wcs.trackingcodeinputcell"
+        },
+        {
+          "fields": {
+            "order": 2,
+            "public": true,
+            "manual_order": {
+              "data": []
+            },
+            "ordering": "alpha",
+            "slug": "",
+            "last_update_timestamp": "2020-02-17T16:07:13.659Z",
+            "placeholder": "content",
+            "limit": null,
+            "groups": [],
+            "extra_css_class": "toggled",
+            "category_reference": "wcs-${SLUG}:formulaires",
+            "restricted_to_unlogged": false
+          },
+          "model": "wcs.wcsformsofcategorycell"
+        }
+      ]
+    },
+    {
+      "fields": {
+        "snapshot": null,
+        "groups": [],
+        "order": 2,
+        "public": true,
+        "title": "Mes d\u00e9marches en cours",
+        "template_name": "standard",
+        "description": "",
+        "sub_slug": "",
+        "redirect_url": "",
+        "last_update_timestamp": "2020-02-17T16:09:03.692Z",
+        "picture": "",
+        "slug": "mes-demarches-en-cours",
+        "parent": null,
+        "exclude_from_navigation": false
+      },
+      "cells": [
+        {
+          "fields": {
+            "last_update_timestamp": "2020-02-17T16:07:42.409Z",
+            "placeholder": "footer",
+            "groups": [],
+            "order": 0,
+            "restricted_to_unlogged": false,
+            "public": true,
+            "extra_css_class": "",
+            "slug": ""
+          },
+          "model": "data.parentcontentcell"
+        },
+        {
+          "fields": {
+            "groups": [],
+            "order": 1,
+            "public": true,
+            "current_forms": true,
+            "done_forms": true,
+            "last_update_timestamp": "2020-02-17T16:08:53.763Z",
+            "placeholder": "content",
+            "include_drafts": true,
+            "restricted_to_unlogged": false,
+            "wcs_site": "",
+            "extra_css_class": "",
+            "categories": {
+              "data": []
+            },
+            "slug": ""
+          },
+          "model": "wcs.wcscurrentformscell"
+        },
+        {
+          "fields": {
+            "last_update_timestamp": "2020-02-18T08:17:46.895Z",
+            "placeholder": "content",
+            "groups": [],
+            "order": 2,
+            "restricted_to_unlogged": true,
+            "public": true,
+            "extra_css_class": "",
+            "text": "<p><strong>Veuillez vous connecter afin de voir vos d&eacute;marches en cours.</strong></p>",
+            "slug": ""
+          },
+          "model": "data.textcell"
+        }
+      ]
+    }
+  ],
+  "map-layers": [],
+  "assets": [],
+  "pwa": {
+    "navigation": [],
+    "settings": {}
+  }
+}
