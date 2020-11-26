@@ -16,6 +16,9 @@
       }
     },
     {
+      "set-idp": {}
+    },
+    {
       "create-hobo": {
         "url": "https://${organization}.${hobo}/",
         "slug": "hobo-${organization}",
@@ -23,15 +26,10 @@
       }
     },
     {
-      "set-idp": {
-      }
-    },
-    {
       "create-combo": {
         "url": "https://${organization}.${combo}/",
         "slug": "portal-user-${organization}",
         "title": "Compte citoyen",
-        "template_name": "portal-user"
       }
     },
     {
@@ -39,7 +37,6 @@
         "url": "https://${organization}.${combo_agent}/",
         "slug": "portal-agent-${organization}",
         "title": "Portail agent",
-        "template_name": "portal-agent"
       }
     },
     {
@@ -54,7 +51,6 @@
         "url": "https://${organization}.${wcs}/",
         "slug": "wcs-${organization}",
         "title": "Démarches",
-        "template_name": "publik.zip"
       }
     },
     {
