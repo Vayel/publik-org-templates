@@ -51,7 +51,7 @@
       "create-wcs": {
         "url": "https://${organization}.${wcs}/",
         "slug": "wcs-${organization}",
-        "title": "Démarches | ${TITLE}",
+        "title": "Démarches | ${TITLE}"
       }
     },
     {
