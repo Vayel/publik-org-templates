@@ -29,6 +29,7 @@
         "url": "https://${organization}.${combo}/",
         "slug": "combo-user-${organization}",
         "title": "Compte citoyen | ${TITLE}",
+        "template_name": "portal-user"
       }
     },
     {
@@ -36,6 +37,7 @@
         "url": "https://${organization}.${combo_agent}/",
         "slug": "combo-agent-${organization}",
         "title": "Portail agent | ${TITLE}",
+        "template_name": "portal-agent"
       }
     },
     {
