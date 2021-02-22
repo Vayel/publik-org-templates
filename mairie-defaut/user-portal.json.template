@@ -2,121 +2,157 @@
   "pages": [
     {
       "fields": {
-        "snapshot": null,
-        "groups": [],
-        "order": 1,
-        "public": true,
         "title": "Accueil",
-        "template_name": "standard",
-        "description": "",
-        "sub_slug": "",
-        "redirect_url": "",
-        "last_update_timestamp": "2020-02-18T08:19:12.059Z",
-        "picture": "",
         "slug": "index",
+        "sub_slug": "",
+        "description": "",
+        "template_name": "standard",
         "parent": null,
-        "exclude_from_navigation": false
+        "order": 1,
+        "exclude_from_navigation": false,
+        "redirect_url": "",
+        "public": true,
+        "creation_timestamp": "2021-02-22T09:06:35.383Z",
+        "last_update_timestamp": "2021-02-22T09:06:36.443Z",
+        "picture": "",
+        "snapshot": null,
+        "groups": []
       },
       "cells": [
         {
+          "model": "wcs.trackingcodeinputcell",
           "fields": {
-            "wcs_site": "",
-            "last_update_timestamp": "2020-02-17T15:36:34.458Z",
             "placeholder": "content",
-            "groups": [],
             "order": 1,
-            "restricted_to_unlogged": false,
-            "public": true,
+            "slug": "",
             "extra_css_class": "",
-            "slug": ""
-          },
-          "model": "wcs.trackingcodeinputcell"
+            "public": true,
+            "restricted_to_unlogged": false,
+            "last_update_timestamp": "2021-02-22T09:06:36.165Z",
+            "wcs_site": "",
+            "groups": []
+          }
         },
         {
+          "model": "wcs.wcsformsofcategorycell",
           "fields": {
+            "placeholder": "content",
             "order": 2,
+            "slug": "",
+            "extra_css_class": "toggled",
             "public": true,
+            "restricted_to_unlogged": false,
+            "last_update_timestamp": "2021-02-22T09:06:36.366Z",
+            "category_reference": "wcs-${SLUG}:formulaires",
+            "ordering": "alpha",
             "manual_order": {
               "data": []
             },
-            "ordering": "alpha",
-            "slug": "",
-            "last_update_timestamp": "2020-02-17T16:07:13.659Z",
-            "placeholder": "content",
             "limit": null,
-            "groups": [],
-            "extra_css_class": "toggled",
-            "category_reference": "wcs-${SLUG}:formulaires",
-            "restricted_to_unlogged": false
-          },
-          "model": "wcs.wcsformsofcategorycell"
+            "groups": []
+          }
         }
       ]
     },
     {
       "fields": {
-        "snapshot": null,
-        "groups": [],
-        "order": 2,
-        "public": true,
         "title": "Mes d\u00e9marches en cours",
-        "template_name": "standard",
-        "description": "",
-        "sub_slug": "",
-        "redirect_url": "",
-        "last_update_timestamp": "2020-02-17T16:09:03.692Z",
-        "picture": "",
         "slug": "mes-demarches-en-cours",
+        "sub_slug": "",
+        "description": "",
+        "template_name": "standard",
         "parent": null,
-        "exclude_from_navigation": false
+        "order": 2,
+        "exclude_from_navigation": false,
+        "redirect_url": "",
+        "public": true,
+        "creation_timestamp": "2021-02-22T09:06:35.798Z",
+        "last_update_timestamp": "2021-02-22T09:06:37.149Z",
+        "picture": "",
+        "snapshot": null,
+        "groups": []
       },
       "cells": [
         {
+          "model": "data.parentcontentcell",
           "fields": {
-            "last_update_timestamp": "2020-02-17T16:07:42.409Z",
             "placeholder": "footer",
-            "groups": [],
             "order": 0,
-            "restricted_to_unlogged": false,
-            "public": true,
+            "slug": "",
             "extra_css_class": "",
-            "slug": ""
-          },
-          "model": "data.parentcontentcell"
+            "public": true,
+            "restricted_to_unlogged": false,
+            "last_update_timestamp": "2021-02-22T09:06:36.667Z",
+            "groups": []
+          }
         },
         {
+          "model": "wcs.wcscurrentformscell",
           "fields": {
-            "groups": [],
-            "order": 1,
-            "public": true,
-            "current_forms": true,
-            "done_forms": true,
-            "last_update_timestamp": "2020-02-17T16:08:53.763Z",
             "placeholder": "content",
-            "include_drafts": true,
-            "restricted_to_unlogged": false,
-            "wcs_site": "",
+            "order": 1,
+            "slug": "",
             "extra_css_class": "",
+            "public": true,
+            "restricted_to_unlogged": false,
+            "last_update_timestamp": "2021-02-22T09:06:36.848Z",
+            "wcs_site": "",
             "categories": {
               "data": []
             },
-            "slug": ""
-          },
-          "model": "wcs.wcscurrentformscell"
+            "current_forms": true,
+            "done_forms": true,
+            "include_drafts": true,
+            "groups": []
+          }
         },
         {
+          "model": "data.textcell",
           "fields": {
-            "last_update_timestamp": "2020-02-18T08:17:46.895Z",
             "placeholder": "content",
-            "groups": [],
             "order": 2,
-            "restricted_to_unlogged": true,
-            "public": true,
+            "slug": "",
             "extra_css_class": "",
+            "public": true,
+            "restricted_to_unlogged": true,
+            "last_update_timestamp": "2021-02-22T09:06:37.066Z",
             "text": "<p><strong>Veuillez vous connecter afin de voir vos d&eacute;marches en cours.</strong></p>",
-            "slug": ""
-          },
-          "model": "data.textcell"
+            "groups": []
+          }
+        }
+      ]
+    },
+    {
+      "fields": {
+        "title": "Administrer les d\u00e9marches",
+        "slug": "administrer-les-demarches",
+        "sub_slug": "",
+        "description": "",
+        "template_name": "standard",
+        "parent": null,
+        "order": 3,
+        "exclude_from_navigation": false,
+        "redirect_url": "https://${SLUG}.${WCS_SUBDOMAIN}${ENV}.${DOMAIN}/backoffice/management/listing",
+        "public": true,
+        "creation_timestamp": "2021-02-22T09:13:06.298Z",
+        "last_update_timestamp": "2021-02-22T09:14:59.347Z",
+        "picture": "",
+        "snapshot": null,
+        "groups": []
+      },
+      "cells": [
+        {
+          "model": "data.parentcontentcell",
+          "fields": {
+            "placeholder": "footer",
+            "order": 0,
+            "slug": "",
+            "extra_css_class": "",
+            "public": true,
+            "restricted_to_unlogged": false,
+            "last_update_timestamp": "2021-02-22T09:13:06.361Z",
+            "groups": []
+          }
         }
       ]
     }
@@ -124,7 +160,11 @@
   "map-layers": [],
   "assets": [],
   "pwa": {
-    "navigation": [],
-    "settings": {}
+    "settings": {},
+    "navigation": []
+  },
+  "payment": {
+    "backends": [],
+    "regies": []
   }
 }

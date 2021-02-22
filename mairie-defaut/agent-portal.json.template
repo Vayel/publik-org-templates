@@ -2,63 +2,39 @@
   "pages": [
     {
       "fields": {
-        "snapshot": null,
-        "groups": [],
-        "order": 1,
-        "public": true,
         "title": "Accueil",
-        "template_name": "standard",
-        "description": "",
-        "sub_slug": "",
-        "redirect_url": "",
-        "last_update_timestamp": "2020-03-03T14:04:53.870Z",
-        "picture": "",
         "slug": "index",
+        "sub_slug": "",
+        "description": "",
+        "template_name": "standard",
         "parent": null,
-        "exclude_from_navigation": false
+        "order": 1,
+        "exclude_from_navigation": true,
+        "redirect_url": "",
+        "public": true,
+        "creation_timestamp": "2021-02-22T10:37:35.981Z",
+        "last_update_timestamp": "2021-02-22T10:38:17.518Z",
+        "picture": "",
+        "snapshot": null,
+        "groups": []
       },
       "cells": [
         {
+          "model": "data.linkcell",
           "fields": {
-            "last_update_timestamp": "2020-03-03T14:04:09.432Z",
             "placeholder": "content",
-            "groups": [],
             "order": 1,
-            "restricted_to_unlogged": false,
-            "public": true,
+            "slug": "",
             "extra_css_class": "",
-            "text": "<p>Bienvenue sur le portail agents de ${TITLE},</p>\r\n\r\n<p>Si vous disposez des droits requis, vous pouvez g&eacute;rer les d&eacute;marches ici.</p>",
-            "slug": ""
-          },
-          "model": "data.textcell"
-        },
-        {
-          "fields": {
-            "wcs_site": "",
-            "last_update_timestamp": "2020-02-17T15:36:38.333Z",
-            "placeholder": "content",
-            "groups": [],
-            "order": 2,
-            "restricted_to_unlogged": false,
             "public": true,
-            "extra_css_class": "",
-            "slug": ""
-          },
-          "model": "wcs.trackingcodeinputcell"
-        },
-        {
-          "fields": {
-            "wcs_site": "wcs-${SLUG}",
-            "last_update_timestamp": "2020-02-17T15:36:38.593Z",
-            "placeholder": "content",
-            "groups": [],
-            "order": 3,
             "restricted_to_unlogged": false,
-            "public": true,
-            "extra_css_class": "",
-            "slug": ""
-          },
-          "model": "wcs.wcscareformscell"
+            "last_update_timestamp": "2021-02-22T10:38:17.448Z",
+            "title": "Administrer les d\u00e9marches de ${TITLE}",
+            "url": "https://${SLUG}.${WCS_SUBDOMAIN}${ENV}.${DOMAIN}/backoffice/management/listing",
+            "link_page": null,
+            "anchor": "",
+            "groups": []
+          }
         }
       ]
     }
@@ -66,7 +42,11 @@
   "map-layers": [],
   "assets": [],
   "pwa": {
-    "navigation": [],
-    "settings": {}
+    "settings": {},
+    "navigation": []
+  },
+  "payment": {
+    "backends": [],
+    "regies": []
   }
 }
